@@ -71,3 +71,6 @@ cmd zip ${{
     zip -r $1.zip $1
     rm -rf $1
 }}
+
+cmd zathura %set -f; zathura $fx
+map oz zathura
